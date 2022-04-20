@@ -1,2 +1,2 @@
-# GeekBrainsOOP
+# GeekBrainsAlgorithms
 Репозиторий для курса Алгоритмы
