@@ -363,3 +363,5 @@ MigrationBackup/
 Lessons-3/Lessons-3.sln
 Lessons-3/ExpandedLine/ExpandedLine.csproj
 Lessons-3/SearchMail/SearchMail.csproj
+Lessons-[(0-9)]/*.sln
+Lessons-[(0-9)]/**/*.csproj
