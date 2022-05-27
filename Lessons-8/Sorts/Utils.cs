@@ -38,7 +38,10 @@ public static class Utils
         for (int i = 0; i < buckets.Length; ++i)
         {
             var bucket = buckets[i].ToArray();
-            QuickSort(bucket, 0, bucket.Length - 1);
+            if (bucket.Length > 1)
+            {
+                QuickSort(bucket, 0, bucket.Length - 1);
+            }            
             buckets[i] = bucket.ToList();
         }
 
