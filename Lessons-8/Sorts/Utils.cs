@@ -4,7 +4,7 @@ public static class Utils
 {
     public static void BucketSort(int[] array)
     {
-        List<int>[] buckets = new List<int>[4];
+        List<int>[] buckets = new List<int>[array.Length];
 
         for (int i = 0; i < buckets.Length; ++i)
         {
